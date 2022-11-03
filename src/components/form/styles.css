@@ -1,0 +1,32 @@
+.formContainer {
+    padding-top: 32px;
+}
+
+.FormLabel {
+    color: #c4c4c4;
+    margin: 0;
+    font-size: 14px;
+    /* font-weight: 300; */
+}
+
+.input {
+    margin-top: 8px;
+    background-color: var(--inputbackground) !important;
+    border: none !important;
+}
+
+.input:focus {
+    border: none;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitButton {
+    background-color: var(--submitButton) !important;
+    border: none !important;
+    padding: 4px 24px 4px 24px !important;
+}

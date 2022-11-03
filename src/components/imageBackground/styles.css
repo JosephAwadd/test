@@ -1,0 +1,64 @@
+.imageBackgroundWrapper {
+    position: relative;
+    width: 100%;
+    height: 82.1vh;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.image {
+    width: 100%;
+    height: 82.1vh;
+    border-radius: 0px 16px 16px 0px;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    border-radius: 0px 16px 16px 0px;
+    background-image: linear-gradient(to left, rgba(41, 43, 56, 0.5), rgba(41, 43, 56, 1));
+    padding: 128px 64px 47px 64px;
+    color: #f1f1f1;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.paragraphContainer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.paragraphTitle p {
+    font-size: 26px;
+}
+
+.paragraph p {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.paraghraphWrapper {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cf {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.cf p {
+    font-size: 50px;
+    margin: 0;
+}

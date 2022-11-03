@@ -1,0 +1,27 @@
+.creditCard {
+    width: 95%;
+    height: 25vh;
+    background-color: var(--creditcard);
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-left: 24px;
+    margin-left: 8px;
+}
+
+.creditCardNumber {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.creditCardNumber p,
+.creditCardDate p {
+    margin: 0;
+}
+
+.creditCardDate,
+.creditCardName {
+    font-size: 14px;
+}
